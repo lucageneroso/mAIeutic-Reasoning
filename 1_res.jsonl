@@ -1,0 +1,13 @@
+{
+  "date": "2025-07-22 17:23",
+  "eval": {
+    "BigCodeBench/1": [
+      {
+        "task_id": "BigCodeBench/1",
+        "solution": "import collections\nimport random\nimport string\ndef task_func(length=100):\n\n    pass\nimport collections\nimport random\nimport string\ndef task_func(length=100):\n    if length < 0:\n        raise ValueError(\"Length must be non-negative\")\n    chars = random.choices(string.ascii_letters, k=length)\n    return dict(collections.Counter(chars))",
+        "status": "pass",
+        "details": {}
+      }
+    ]
+  }
+}
