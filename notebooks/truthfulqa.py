@@ -665,7 +665,7 @@ Scegli l'opzione corretta e rispondi scrivendo SOLO il testo di una delle due op
 {formatted_choices}
 """
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="")
 
 def chat_with_gpt_neutro(prompt):
     try:
@@ -878,7 +878,7 @@ Scegli l'opzione corretta e rispondi SOLO con il numero '1' o '2'.
 """
 
 # Configura il client OpenAI
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="")
 
 def chat_with_gpt_neutro(prompt):
     try:
