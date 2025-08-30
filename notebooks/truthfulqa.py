@@ -486,7 +486,7 @@ def retrieve_skill(query):
     D, I = index.search(vec, 1)
     return skills[I[0][0]]
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="")
 
 def chat_with_gpt(prompt):
     try:
